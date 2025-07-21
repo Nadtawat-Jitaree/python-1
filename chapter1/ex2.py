@@ -1,0 +1,6 @@
+print("Id : 6806021610182")
+print("English Name : Nadtawat Jitaree")
+print("Thai Name : ณัฐวัตร จิตอารี")
+print("Nick Name : Nan")
+print("Sex : Male")
+print("Age : 18")

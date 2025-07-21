@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.4">
+  <diagram name="หน้า-1" id="HLbuw1RBrqAs6YHIYQfq">
+    <mxGraphModel dx="1895" dy="1218" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eXx4Q-RtnBKRzLkyKdS7-2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="355" y="30" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eXx4Q-RtnBKRzLkyKdS7-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.499;exitY=0.877;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="eXx4Q-RtnBKRzLkyKdS7-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425.5" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eXx4Q-RtnBKRzLkyKdS7-3" value="&quot;Program Calculate Area Circle.&quot;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="319.5" y="140" width="212" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eXx4Q-RtnBKRzLkyKdS7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eXx4Q-RtnBKRzLkyKdS7-2" target="eXx4Q-RtnBKRzLkyKdS7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eXx4Q-RtnBKRzLkyKdS7-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.499;exitY=0.83;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="eXx4Q-RtnBKRzLkyKdS7-8" target="eXx4Q-RtnBKRzLkyKdS7-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eXx4Q-RtnBKRzLkyKdS7-8" value="&quot;Enter circle radius (float number) : &quot;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="324" y="260" width="202" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eXx4Q-RtnBKRzLkyKdS7-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eXx4Q-RtnBKRzLkyKdS7-9" target="eXx4Q-RtnBKRzLkyKdS7-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eXx4Q-RtnBKRzLkyKdS7-9" value="INPUT : radius" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="328" y="370" width="195" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eXx4Q-RtnBKRzLkyKdS7-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eXx4Q-RtnBKRzLkyKdS7-13" target="eXx4Q-RtnBKRzLkyKdS7-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eXx4Q-RtnBKRzLkyKdS7-13" value="area = 3.14 * radius * radius" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="295" y="470" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eXx4Q-RtnBKRzLkyKdS7-25" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="355.5" y="930" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eXx4Q-RtnBKRzLkyKdS7-47" value="circum = 2 * 3.14 * radius" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="295" y="580" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eXx4Q-RtnBKRzLkyKdS7-56" value="&quot;Area of circle with radius : &quot;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="324" y="700" width="202" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eXx4Q-RtnBKRzLkyKdS7-57" value="&quot;Circumference is : &quot;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="324.5" y="810" width="202" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eXx4Q-RtnBKRzLkyKdS7-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="eXx4Q-RtnBKRzLkyKdS7-47" target="eXx4Q-RtnBKRzLkyKdS7-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eXx4Q-RtnBKRzLkyKdS7-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.499;exitY=0.886;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="eXx4Q-RtnBKRzLkyKdS7-56" target="eXx4Q-RtnBKRzLkyKdS7-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eXx4Q-RtnBKRzLkyKdS7-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.504;entryY=-0.029;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.503;exitY=0.875;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="eXx4Q-RtnBKRzLkyKdS7-57" target="eXx4Q-RtnBKRzLkyKdS7-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,3 +1,5 @@
+# 6806021610182 ณัฐวัตร จิตอารี
+
 from random import uniform
 v1 = uniform(30.0,50.0)
 v2 = uniform(30.0,50.0)

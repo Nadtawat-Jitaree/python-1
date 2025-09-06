@@ -1,0 +1,6 @@
+text = input("Enter text(enter-exit) : ")
+print("text has 'a' : ",text.count("a"))
+print("text has 'e' : ",text.count("e"))
+print("text has 'i' : ",text.count("i"))
+print("text has 'o' : ",text.count("o"))
+print("text has 'u' : ",text.count("u"))

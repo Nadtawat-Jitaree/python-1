@@ -1,4 +1,2 @@
-num = 123456
-
-for n in num:
-    
+import math
+print((math.fabs(19900.30)))
